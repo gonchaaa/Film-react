@@ -45,6 +45,7 @@ const List = () => {
                 <input 
                     type="text" 
                     value={searchTerm} 
+                    placeholder='Search...'
                     onChange={(e) => setSearchTerm(e.target.value)} 
                 />
                 <button onClick={handleSearch}>Search</button>
